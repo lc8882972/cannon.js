@@ -68,7 +68,7 @@
     </head>
     <body>
         <script src="../libs/Three.js"></script>
-        <script src="../build/cannon.js"></script>
+        <script src="../dist/bundle.js"></script>
         <script src="js/PointerLockControls.js"></script>
         <script src="js/VoxelLandscape.js"></script>
 
@@ -185,7 +185,7 @@
 
             function initCannon(){
                 // Setup our world
-                world = new CANNON.World();
+                world = new CANNON.World({});
                 world.quatNormalizeSkip = 0;
                 world.quatNormalizeFast = false;
 

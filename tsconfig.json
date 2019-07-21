@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "declarationDir": "types",
+    "strict": false,
+    "outDir": "build",
+    "lib": [
+      "es6",
+      "dom",
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
